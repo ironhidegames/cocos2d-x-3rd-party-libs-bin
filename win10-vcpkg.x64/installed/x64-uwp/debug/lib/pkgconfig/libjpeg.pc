@@ -1,0 +1,10 @@
+prefix=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/libjpeg-turbo_x64-uwp/debug
+exec_prefix=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/libjpeg-turbo_x64-uwp/debug
+libdir=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/libjpeg-turbo_x64-uwp/debug/lib
+includedir=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/libjpeg-turbo_x64-uwp/debug/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.5
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

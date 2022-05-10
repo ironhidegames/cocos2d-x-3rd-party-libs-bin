@@ -1,0 +1,11 @@
+prefix=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/tiff_x64-uwp/debug
+exec_prefix=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/tiff_x64-uwp/debug
+libdir=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/tiff_x64-uwp/debug/lib
+includedir=D:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/tiff_x64-uwp/debug/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.1.0
+Libs: -LD:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/tiff_x64-uwp/debug/lib -ltiff
+Libs.private: 
+Cflags: -ID:/DevBKP/cocos2d-x-xbox/contrib/install-win32/vcpkg/packages/tiff_x64-uwp/debug/include
