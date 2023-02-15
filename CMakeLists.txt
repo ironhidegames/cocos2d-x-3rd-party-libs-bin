@@ -186,7 +186,7 @@ set_target_properties(external
 )
 
 
-if(MACOSX OR IOS)
+if(MACOSX OR IOS OR TVOS)
     add_subdirectory(glsl-optimizer)
     target_link_libraries(external 
     ext_glcpp_library
